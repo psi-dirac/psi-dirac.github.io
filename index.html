@@ -1,35 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PSI Group</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; }
-    header, main, footer { max-width: 900px; margin: 0 auto; padding: 1rem; }
-    nav a { margin-right: 1rem; color: #0056b3; text-decoration: none; }
-    nav a:hover { text-decoration: underline; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PSI Group — Planet–Star Interaction · UW DiRAC Institute</title>
+<meta name="description" content="The Planet–Star Interaction (PSI) Group at the DiRAC Institute, University of Washington, studies circumstellar dust, debris disks, and giant impacts with time-domain surveys.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/psi.css">
 </head>
 <body>
-  <header>
-    <h1>Planet Star Interaction (PSI) Group</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="research.html">Research</a>
-      <a href="leadership.html">Leadership</a>
-    </nav>
-  </header>
+<a class="skip" href="#main">Skip to content</a>
 
-  <main>
-    <h2>Welcome</h2>
-    <p>Welcome to the PSI Group website at the UW DiRAC Institute.</p>
-    <p>Use the navigation links above to learn more about our team and work.</p>
-  </main>
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="brand" href="index.html">
+      <svg class="brand__mark" viewBox="0 0 30 18" aria-hidden="true"><path d="M0 5 H7 L9 5 C11 5 11 14 14 14 C17 14 17 5 19 5 H30"/></svg>
+      <span>
+        <span class="brand__name">PSI Group</span>
+        <span class="brand__sub">DiRAC · UW</span>
+      </span>
+    </a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <ul class="nav__links" id="navlinks">
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="resources.html">Resources</a></li>
+    </ul>
+  </div>
+</header>
 
-  <footer>
-    <p>&copy; 2026 PSI Group</p>
-  </footer>
+<main id="main">
+
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Planet–Star Interaction Group · DiRAC Institute · University of Washington</p>
+      <h1>The wreckage of planet formation, written in <em>starlight</em>.</h1>
+      <p class="lede">Rocky bodies collide, disks warp, and dust drifts across the face of a star. Each event leaves a fingerprint in how that star's brightness changes with time. We hunt those fingerprints across optical and infrared surveys, then follow them up with spectroscopy to work out what the dust is made of and where it came from.</p>
+      <div class="hero__cta">
+        <a class="btn" href="research.html">What we work on</a>
+        <a class="btn btn--ghost" href="team.html">Meet the group</a>
+      </div>
+    </div>
+  </section>
+
+  <figure class="curve wrap">
+    <svg id="lc" viewBox="0 0 1180 250" data-full="0 0 1180 250" data-zoom="612 34 500 216" role="img" aria-label="Illustrative light curve of a dipper star: a flat baseline interrupted by deep, irregular dimming events caused by occulting dust.">
+      <line class="curve__tick" x1="70" y1="240" x2="1140" y2="240"/>
+      <line class="curve__tick" x1="70" y1="46" x2="70" y2="240"/>
+      <rect class="curve__band" x="674" y="40" width="110" height="200"/>
+      <line class="curve__lead" x1="729" y1="56" x2="729" y2="150"/>
+      <text class="curve__note" x="736" y="54">occulting debris</text>
+      <path class="curve__line" d="M 70.0 64.0 L 74.1 62.8 L 78.3 63.5 L 82.4 64.4 L 86.5 63.0 L 90.7 63.8 L 94.8 61.3 L 98.9 58.4 L 103.1 62.5 L 107.2 62.9 L 111.3 60.8 L 115.4 61.4 L 119.6 62.4 L 123.7 65.3 L 127.8 63.8 L 132.0 62.8 L 136.1 67.9 L 140.2 66.4 L 144.4 70.1 L 148.5 69.1 L 152.6 70.6 L 156.8 67.1 L 160.9 69.4 L 165.0 65.9 L 169.2 65.9 L 173.3 66.4 L 177.4 71.1 L 181.5 66.2 L 185.7 64.6 L 189.8 63.6 L 193.9 66.7 L 198.1 63.8 L 202.2 64.4 L 206.3 63.7 L 210.5 59.3 L 214.6 63.2 L 218.7 61.4 L 222.9 59.5 L 227.0 62.9 L 231.1 62.2 L 235.3 62.1 L 239.4 62.7 L 243.5 66.0 L 247.6 63.7 L 251.8 61.5 L 255.9 68.4 L 260.0 63.6 L 264.2 65.7 L 268.3 67.7 L 272.4 62.1 L 276.6 65.0 L 280.7 69.3 L 284.8 66.3 L 289.0 64.9 L 293.1 66.3 L 297.2 63.9 L 301.4 65.0 L 305.5 62.9 L 309.6 60.6 L 313.7 64.7 L 317.9 62.3 L 322.0 63.4 L 326.1 61.9 L 330.3 64.8 L 334.4 63.7 L 338.5 63.5 L 342.7 62.2 L 346.8 63.3 L 350.9 71.0 L 355.1 72.8 L 359.2 73.2 L 363.3 83.1 L 367.5 84.3 L 371.6 88.2 L 375.7 89.7 L 379.8 94.9 L 384.0 100.3 L 388.1 102.3 L 392.2 102.8 L 396.4 98.3 L 400.5 101.2 L 404.6 98.9 L 408.8 95.3 L 412.9 94.4 L 417.0 93.2 L 421.2 94.2 L 425.3 90.9 L 429.4 90.7 L 433.6 85.2 L 437.7 83.6 L 441.8 81.5 L 445.9 75.9 L 450.1 74.0 L 454.2 67.3 L 458.3 66.8 L 462.5 63.5 L 466.6 66.5 L 470.7 62.3 L 474.9 66.7 L 479.0 67.7 L 483.1 64.3 L 487.3 66.2 L 491.4 64.4 L 495.5 60.3 L 499.7 67.6 L 503.8 67.5 L 507.9 66.0 L 512.0 65.5 L 516.2 67.0 L 520.3 67.0 L 524.4 64.8 L 528.6 64.9 L 532.7 67.9 L 536.8 65.4 L 541.0 64.6 L 545.1 66.4 L 549.2 62.9 L 553.4 64.8 L 557.5 60.3 L 561.6 61.6 L 565.8 61.5 L 569.9 62.8 L 574.0 61.6 L 578.1 65.8 L 582.3 64.0 L 586.4 61.0 L 590.5 66.9 L 594.7 60.8 L 598.8 67.0 L 602.9 62.1 L 607.1 66.3 L 611.2 63.3 L 615.3 65.4 L 619.5 69.7 L 623.6 64.2 L 627.7 64.4 L 631.9 68.4 L 636.0 69.6 L 640.1 70.3 L 644.2 73.3 L 648.4 70.3 L 652.5 75.9 L 656.6 77.4 L 660.8 82.4 L 664.9 86.3 L 669.0 93.0 L 673.2 93.8 L 677.3 104.4 L 681.4 110.5 L 685.6 122.3 L 689.7 134.4 L 693.8 144.8 L 698.0 157.0 L 702.1 167.4 L 706.2 179.7 L 710.3 190.4 L 714.5 202.6 L 718.6 210.1 L 722.7 211.9 L 726.9 222.9 L 731.0 228.0 L 735.1 227.7 L 739.3 226.6 L 743.4 232.8 L 747.5 228.5 L 751.7 226.5 L 755.8 224.6 L 759.9 213.2 L 764.1 207.5 L 768.2 198.4 L 772.3 190.0 L 776.4 176.2 L 780.6 166.6 L 784.7 154.0 L 788.8 144.9 L 793.0 135.1 L 797.1 120.9 L 801.2 118.0 L 805.4 110.8 L 809.5 107.2 L 813.6 104.4 L 817.8 101.0 L 821.9 94.7 L 826.0 92.6 L 830.2 87.8 L 834.3 82.9 L 838.4 76.2 L 842.5 73.6 L 846.7 71.4 L 850.8 71.3 L 854.9 71.7 L 859.1 65.7 L 863.2 65.2 L 867.3 67.4 L 871.5 65.7 L 875.6 65.0 L 879.7 64.7 L 883.9 64.2 L 888.0 66.8 L 892.1 62.0 L 896.3 67.6 L 900.4 62.4 L 904.5 62.6 L 908.6 61.2 L 912.8 58.5 L 916.9 58.9 L 921.0 64.4 L 925.2 65.4 L 929.3 59.9 L 933.4 64.2 L 937.6 62.6 L 941.7 61.7 L 945.8 68.8 L 950.0 72.1 L 954.1 70.0 L 958.2 74.5 L 962.4 80.1 L 966.5 85.2 L 970.6 93.4 L 974.7 101.0 L 978.9 103.6 L 983.0 109.7 L 987.1 113.8 L 991.3 109.6 L 995.4 109.2 L 999.5 104.7 L 1003.7 102.8 L 1007.8 96.2 L 1011.9 90.8 L 1016.1 84.6 L 1020.2 76.8 L 1024.3 74.5 L 1028.5 68.3 L 1032.6 65.7 L 1036.7 60.0 L 1040.8 66.2 L 1045.0 60.3 L 1049.1 62.0 L 1053.2 61.6 L 1057.4 64.8 L 1061.5 62.8 L 1065.6 60.5 L 1069.8 62.8 L 1073.9 62.9 L 1078.0 64.3 L 1082.2 61.7 L 1086.3 64.8 L 1090.4 70.2 L 1094.6 67.3 L 1098.7 70.5 L 1102.8 73.6 L 1106.9 67.8 L 1111.1 63.7 L 1115.2 66.5 L 1119.3 68.9 L 1123.5 68.1 L 1127.6 63.1 L 1131.7 64.8 L 1135.9 64.5 L 1140.0 64.1"/>
+      <circle class="curve__pt" cx="103.1" cy="62.5" r="2.4" style="animation-delay:.46s"/>
+      <circle class="curve__pt" cx="177.4" cy="71.1" r="2.4" style="animation-delay:.61s"/>
+      <circle class="curve__pt" cx="251.8" cy="61.5" r="2.4" style="animation-delay:.75s"/>
+      <circle class="curve__pt" cx="326.1" cy="61.9" r="2.4" style="animation-delay:.90s"/>
+      <circle class="curve__pt" cx="400.5" cy="101.2" r="2.4" style="animation-delay:1.04s"/>
+      <circle class="curve__pt" cx="474.9" cy="66.7" r="2.4" style="animation-delay:1.18s"/>
+      <circle class="curve__pt" cx="549.2" cy="62.9" r="2.4" style="animation-delay:1.33s"/>
+      <circle class="curve__pt" cx="623.6" cy="64.2" r="2.4" style="animation-delay:1.47s"/>
+      <circle class="curve__pt" cx="698.0" cy="157.0" r="2.4" style="animation-delay:1.62s"/>
+      <circle class="curve__pt" cx="772.3" cy="190.0" r="2.4" style="animation-delay:1.76s"/>
+      <circle class="curve__pt" cx="846.7" cy="71.4" r="2.4" style="animation-delay:1.90s"/>
+      <circle class="curve__pt" cx="921.0" cy="64.4" r="2.4" style="animation-delay:2.05s"/>
+      <circle class="curve__pt" cx="995.4" cy="109.2" r="2.4" style="animation-delay:2.19s"/>
+      <circle class="curve__pt" cx="1069.8" cy="62.8" r="2.4" style="animation-delay:2.34s"/>
+      <circle class="curve__pt" cx="1127.6" cy="63.1" r="2.4" style="animation-delay:2.45s"/>
+    </svg>
+    <figcaption>
+      <span>relative brightness ↑</span>
+      <span>time →</span>
+    </figcaption>
+  </figure>
+
+  <section class="band band--edge">
+    <div class="wrap">
+      <div class="shead">
+        <h2>Four threads, one question</h2>
+        <p class="eyebrow eyebrow--ash">What happens to solids around young stars</p>
+      </div>
+      <div class="grid grid--2 reveal">
+        <a class="cell" href="research.html">
+          <span class="cell__idx">Optical + mid-infrared</span>
+          <h3>Giant impacts</h3>
+          <p>Catastrophic collisions between rocky bodies release clouds of debris and vapour. The signature is a star that brightens in the infrared while its optical light turns erratic — a short-lived window onto planet building.</p>
+          <span class="cell__more">Read more</span>
+        </a>
+        <a class="cell" href="research.html">
+          <span class="cell__idx">Time domain</span>
+          <h3>Dippers and disk occultations</h3>
+          <p>Some stars fade for hours, others for years. We characterise the depth, shape, and recurrence of these dimming events to map the structure of the disk material passing in front of the star.</p>
+          <span class="cell__more">Read more</span>
+        </a>
+        <a class="cell" href="research.html">
+          <span class="cell__idx">Spectroscopy</span>
+          <h3>Dust composition</h3>
+          <p>Silicate and silica features in mid-infrared spectra record grain mineralogy, size, and processing history. They tell us whether we are seeing primordial material or something freshly shattered.</p>
+          <span class="cell__more">Read more</span>
+        </a>
+        <a class="cell" href="research.html">
+          <span class="cell__idx">Rubin · Gaia Alerts · ZTF</span>
+          <h3>Finding these events at scale</h3>
+          <p>Rare, slow, aperiodic transients are exactly what alert brokers tend to miss. We build the selection methods and variability statistics needed to pull them out of survey streams as they happen.</p>
+          <span class="cell__more">Read more</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--edge">
+    <div class="wrap">
+      <div class="shead">
+        <h2>Group log</h2>
+        <p class="eyebrow eyebrow--ash">News, papers, talks</p>
+      </div>
+      <!-- Placeholder entries — replace with real group news. -->
+      <ul class="log reveal">
+        <li>
+          <time datetime="2026-08">Aug 2026</time>
+          <p>Group website goes live. Add your first real entry here and delete this one.</p>
+        </li>
+        <li>
+          <time datetime="2026-07">Jul 2026</time>
+          <p>Placeholder: conference talk or workshop the group attended.</p>
+        </li>
+        <li>
+          <time datetime="2026-06">Jun 2026</time>
+          <p>Placeholder: new paper, preprint, or accepted observing proposal.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="band band--edge band--tight">
+    <div class="wrap">
+      <h2>Working with us</h2>
+      <p class="lede">We host UW undergraduates, graduate students, and visiting researchers. If the light curves above look like your kind of problem, get in touch.</p>
+      <div class="hero__cta">
+        <a class="btn" href="mailto:psi-group@uw.edu">Email the group</a>
+        <a class="btn btn--ghost" href="resources.html">Browse resources</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <h4>PSI Group</h4>
+        <p class="foot__note">Planet–Star Interaction Group, DiRAC Institute, Department of Astronomy, University of Washington, Seattle.</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a href="https://dirac.astro.washington.edu/">DiRAC Institute</a></li>
+          <li><a href="https://astro.washington.edu/">UW Astronomy</a></li>
+          <li><a href="mailto:psi-group@uw.edu">psi-group@uw.edu</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="foot__legal">© 2026 PSI Group · University of Washington · Built with GitHub Pages</p>
+  </div>
+</footer>
+
+<script src="assets/js/site.js"></script>
 </body>
 </html>

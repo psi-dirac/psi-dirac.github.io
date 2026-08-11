@@ -1,0 +1,76 @@
+[
+  {
+    "name": "PI Name",
+    "role": "Principal Investigator",
+    "group": "Leadership",
+    "focus": "Debris disks, planet formation, time-domain surveys",
+    "photo": "assets/img/team/pi-name.jpg",
+    "pronouns": "",
+    "bio": "Placeholder. Replace this entry in assets/data/team.json with the group's PI: name, title, research focus, a short bio, and a portrait dropped into assets/img/team/.",
+    "links": {
+      "Email": "mailto:psi-group@uw.edu",
+      "ADS": "https://ui.adsabs.harvard.edu/",
+      "Website": "https://astro.washington.edu/"
+    }
+  },
+  {
+    "name": "Co-Investigator Name",
+    "role": "Co-Investigator",
+    "group": "Leadership",
+    "focus": "Circumstellar dust, infrared spectroscopy",
+    "photo": "assets/img/team/co-i-name.jpg",
+    "bio": "Placeholder. Anyone without a photo file shows a monogram tile instead, so entries work fine before portraits arrive.",
+    "links": {
+      "Email": "mailto:psi-group@uw.edu"
+    }
+  },
+  {
+    "name": "Anastasios Tzanidakis",
+    "role": "DiRAC Postdoctoral Fellow",
+    "group": "Postdoctoral Researchers",
+    "focus": "Giant impacts, dipper stars, circumstellar dust",
+    "photo": "assets/img/team/anastasios-tzanidakis.jpg",
+    "bio": "Works on time-domain signatures of colliding rocky bodies and occulting circumstellar dust, combining optical survey photometry with infrared and spectroscopic follow-up.",
+    "links": {
+      "Email": "mailto:psi-group@uw.edu",
+      "ADS": "https://ui.adsabs.harvard.edu/",
+      "GitHub": "https://github.com/"
+    }
+  },
+  {
+    "name": "Graduate Student Name",
+    "role": "PhD Student, Astronomy",
+    "group": "Graduate Students",
+    "focus": "Mid-infrared variability of young stars",
+    "photo": "assets/img/team/grad-one.jpg",
+    "bio": "Placeholder entry. Copy this block for each student and edit the fields.",
+    "links": { "Email": "mailto:psi-group@uw.edu" }
+  },
+  {
+    "name": "Graduate Student Name",
+    "role": "PhD Student, Astronomy",
+    "group": "Graduate Students",
+    "focus": "Survey selection for slow transients",
+    "photo": "",
+    "bio": "Placeholder entry with no photo, showing the monogram fallback.",
+    "links": {}
+  },
+  {
+    "name": "Undergraduate Name",
+    "role": "Undergraduate Researcher",
+    "group": "Undergraduate Researchers",
+    "focus": "Variability statistics for dipper candidates",
+    "photo": "",
+    "bio": "Placeholder entry.",
+    "links": {}
+  },
+  {
+    "name": "Alum Name",
+    "role": "Former Undergraduate Researcher · now at Institution",
+    "group": "Alumni",
+    "focus": "",
+    "photo": "",
+    "bio": "Placeholder entry. Alumni render last regardless of where they sit in the file.",
+    "links": {}
+  }
+]

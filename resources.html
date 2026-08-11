@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resources — PSI Group · UW DiRAC</title>
+<meta name="description" content="Searchable table of archives, software, observing tools, and onboarding material used by the PSI Group.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/psi.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="brand" href="index.html">
+      <svg class="brand__mark" viewBox="0 0 30 18" aria-hidden="true"><path d="M0 5 H7 L9 5 C11 5 11 14 14 14 C17 14 17 5 19 5 H30"/></svg>
+      <span>
+        <span class="brand__name">PSI Group</span>
+        <span class="brand__sub">DiRAC &middot; UW</span>
+      </span>
+    </a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <ul class="nav__links" id="navlinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="resources.html" aria-current="page">Resources</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-head">
+    <div class="wrap">
+      <p class="eyebrow">Resources</p>
+      <h1>Archives, tools, and paperwork, in one table.</h1>
+      <p class="lede">Everything the group reaches for regularly. Search by name or keyword, filter by category, and sort any column. New entries go in <span class="mono">assets/data/resources.json</span>.</p>
+    </div>
+  </section>
+
+  <section class="band band--edge band--tight">
+    <div class="wrap">
+      <div class="controls">
+        <label class="search">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+          <input id="res-search" type="search" placeholder="Search resources, tools, keywords" aria-label="Search resources">
+        </label>
+        <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+      </div>
+
+      <div class="tablewrap">
+        <table class="res">
+          <thead><tr></tr></thead>
+          <tbody id="res-body"></tbody>
+        </table>
+      </div>
+
+      <div class="tablefoot">
+        <span id="res-shown"></span>
+        <span id="res-updated"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--edge band--tight">
+    <div class="wrap prose">
+      <h2>Something missing?</h2>
+      <p>Add it to <span class="mono">assets/data/resources.json</span> and open a pull request, or send the link to the group and someone will add it.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <h4>PSI Group</h4>
+        <p class="foot__note">Planet&ndash;Star Interaction Group, DiRAC Institute, Department of Astronomy, University of Washington, Seattle.</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a href="https://dirac.astro.washington.edu/">DiRAC Institute</a></li>
+          <li><a href="https://astro.washington.edu/">UW Astronomy</a></li>
+          <li><a href="mailto:psi-group@uw.edu">psi-group@uw.edu</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="foot__legal">&copy; 2026 PSI Group &middot; University of Washington &middot; Built with GitHub Pages</p>
+  </div>
+</footer>
+
+<script src="assets/js/site.js"></script>
+<script src="assets/js/resources.js"></script>
+</body>
+</html>

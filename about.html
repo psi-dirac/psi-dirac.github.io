@@ -1,33 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About - PSI Group</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; }
-    header, main, footer { max-width: 900px; margin: 0 auto; padding: 1rem; }
-    nav a { margin-right: 1rem; color: #0056b3; text-decoration: none; }
-    nav a:hover { text-decoration: underline; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — PSI Group · UW DiRAC</title>
+<meta name="description" content="About the Planet–Star Interaction Group at the DiRAC Institute, University of Washington.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/psi.css">
 </head>
 <body>
-  <header>
-    <h1>About</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="research.html">Research</a>
-      <a href="leadership.html">Leadership</a>
-    </nav>
-  </header>
+<a class="skip" href="#main">Skip to content</a>
 
-  <main>
-    <p>The PSI Group studies interactions between stars and their planetary systems.</p>
-  </main>
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="brand" href="index.html">
+      <svg class="brand__mark" viewBox="0 0 30 18" aria-hidden="true"><path d="M0 5 H7 L9 5 C11 5 11 14 14 14 C17 14 17 5 19 5 H30"/></svg>
+      <span>
+        <span class="brand__name">PSI Group</span>
+        <span class="brand__sub">DiRAC &middot; UW</span>
+      </span>
+    </a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <ul class="nav__links" id="navlinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" aria-current="page">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="resources.html">Resources</a></li>
+    </ul>
+  </div>
+</header>
 
-  <footer>
-    <p><a href="index.html">Back to Home</a></p>
-  </footer>
+<main id="main">
+
+  <section class="page-head">
+    <div class="wrap">
+      <p class="eyebrow">About the group</p>
+      <h1>A small group built around one observational idea.</h1>
+      <p class="lede">Placeholder copy. Replace this with the group's own description &mdash; how it started, who it works with, and what holds the projects together.</p>
+    </div>
+  </section>
+
+  <section class="band band--edge band--tight">
+    <div class="wrap prose reveal">
+      <p class="placeholder">Placeholder page &mdash; edit about.html when the group is ready to write it properly.</p>
+
+      <p>The Planet&ndash;Star Interaction (PSI) Group sits within the DiRAC Institute in the Department of Astronomy at the University of Washington. We study the material left over from planet formation by watching how it changes the light of its host star.</p>
+
+      <p>Most of what we look at is faint, slow, or irregular, which means the work is as much about survey methodology as it is about individual objects. A typical project runs from a survey light curve, through archival infrared photometry, to a spectroscopic follow-up campaign, and the group is organised so that a student can see all three stages.</p>
+
+      <h3>What holds the projects together</h3>
+      <ul>
+        <li>Placeholder: the physical question the group is organised around.</li>
+        <li>Placeholder: the surveys and facilities the group depends on.</li>
+        <li>Placeholder: collaborations inside DiRAC and beyond.</li>
+      </ul>
+
+      <h3>How the group works</h3>
+      <p>Placeholder: meeting cadence, journal club, mentoring structure, and what a new student can expect in their first term.</p>
+
+      <h3>Support</h3>
+      <p>Placeholder: funding acknowledgements, fellowships, and facility time.</p>
+    </div>
+  </section>
+
+  <section class="band band--edge band--tight">
+    <div class="wrap">
+      <h2>Get in touch</h2>
+      <p class="lede">Prospective students and collaborators are welcome to write.</p>
+      <div class="hero__cta">
+        <a class="btn" href="mailto:psi-group@uw.edu">Email the group</a>
+        <a class="btn btn--ghost" href="team.html">See who is here</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <h4>PSI Group</h4>
+        <p class="foot__note">Planet&ndash;Star Interaction Group, DiRAC Institute, Department of Astronomy, University of Washington, Seattle.</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a href="https://dirac.astro.washington.edu/">DiRAC Institute</a></li>
+          <li><a href="https://astro.washington.edu/">UW Astronomy</a></li>
+          <li><a href="mailto:psi-group@uw.edu">psi-group@uw.edu</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="foot__legal">&copy; 2026 PSI Group &middot; University of Washington &middot; Built with GitHub Pages</p>
+  </div>
+</footer>
+
+<script src="assets/js/site.js"></script>
+
 </body>
 </html>
