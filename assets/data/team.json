@@ -1,5 +1,32 @@
 [
   {
+    "name": "Anastasios Tzanidakis",
+    "role": "Group Founder · DiRAC Postdoctoral Fellow",
+    "group": "Leadership",
+    "focus": "Giant impacts, dipper stars, circumstellar dust",
+    "photo": "assets/img/team/anastasios-tzanidakis.jpg",
+    "bio": "Studies rare stellar variability with observational and algorithmic methods — unusual dimming events around Sun-like stars, the dusty aftermath of giant impacts, and long-duration occultations by circumstellar material. Combines optical survey photometry (Gaia, ZTF, LSST) with infrared and spectroscopic follow-up. Founder of the PSI Group and former Director of the UW Planetarium.",
+    "links": {
+      "Email": "mailto:atzanida@uw.edu",
+      "Website": "https://andytza.github.io/",
+      "GitHub": "https://github.com/AndyTza",
+      "ADS": "https://ui.adsabs.harvard.edu/search/q=author%3A%22Tzanidakis%2C%20Anastasios%22&sort=date%20desc"
+    }
+  },
+  {
+    "name": "Nick Tusay",
+    "role": "Group Co-Lead · DiRAC Postdoctoral Fellow",
+    "group": "Leadership",
+    "focus": "Disintegrating exoplanets, transmission spectroscopy, technosignatures",
+    "photo": "assets/img/team/nick-tusay.jpg",
+    "bio": "Works on disintegrating rocky bodies around main-sequence stars, measuring the chemical makeup of their escaping material with ground-based optical observatories and JWST. Also runs and analyzes novel radio technosignature searches with the Green Bank Telescope and the Allen Telescope Array.",
+    "links": {
+      "Website": "https://tusay.github.io",
+      "GitHub": "https://github.com/Tusay",
+      "ADS": "https://ui.adsabs.harvard.edu/search/q=author%3A%22Tusay%2C%20N.%22&sort=date%20desc"
+    }
+  },
+  {
     "name": "James Davenport",
     "role": "Supervising Faculty · Research Assistant Professor, Director of DiRAC",
     "group": "Leadership",
@@ -40,7 +67,7 @@
     }
   },
   {
-    "name": "Katelyn",
+    "name": "Katelyn Seratt",
     "role": "Undergraduate Researcher · Senior",
     "group": "Undergraduate Researchers",
     "focus": "Physics and Astronomy",
@@ -49,7 +76,7 @@
     "links": {}
   },
   {
-    "name": "Shamik",
+    "name": "Shamik Das",
     "role": "Undergraduate Researcher · Senior",
     "group": "Undergraduate Researchers",
     "focus": "Applied Physics and Astronomy",
@@ -58,7 +85,7 @@
     "links": {}
   },
   {
-    "name": "Marco",
+    "name": "Marco Varela",
     "role": "Undergraduate Researcher · Junior",
     "group": "Undergraduate Researchers",
     "focus": "Astronomy and Physics, minor in Philosophy",
@@ -67,7 +94,7 @@
     "links": {}
   },
   {
-    "name": "Armaan",
+    "name": "Armaan Khanuja",
     "role": "Undergraduate Researcher · Junior",
     "group": "Undergraduate Researchers",
     "focus": "Physics, Astronomy, and ACMS",
@@ -76,7 +103,7 @@
     "links": {}
   },
   {
-    "name": "Jessica",
+    "name": "Jessica Lemus",
     "role": "Undergraduate Researcher · Class of 2028",
     "group": "Undergraduate Researchers",
     "focus": "Physics and Astronomy, minor in Acting",
