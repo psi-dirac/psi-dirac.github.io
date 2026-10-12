@@ -1,76 +1,87 @@
 [
   {
-    "name": "PI Name",
-    "role": "Principal Investigator",
+    "name": "James Davenport",
+    "role": "Supervising Faculty · Research Assistant Professor, Director of DiRAC",
     "group": "Leadership",
-    "focus": "Debris disks, planet formation, time-domain surveys",
-    "photo": "assets/img/team/pi-name.jpg",
-    "pronouns": "",
-    "bio": "Placeholder. Replace this entry in assets/data/team.json with the group's PI: name, title, research focus, a short bio, and a portrait dropped into assets/img/team/.",
+    "focus": "Time-domain astronomy, magnetically active stars, optical technosignatures",
+    "photo": "assets/img/team/james-davenport.jpg",
+    "bio": "Research Assistant Professor in the UW Department of Astronomy and Director of the DiRAC Institute. His work centers on time-domain and large-survey astronomy — especially magnetically active stars seen by Kepler, TESS, ZTF, and Gaia — and he leads several optical SETI projects. He also directs the department's outreach efforts.",
     "links": {
-      "Email": "mailto:psi-group@uw.edu",
-      "ADS": "https://ui.adsabs.harvard.edu/",
-      "Website": "https://astro.washington.edu/"
-    }
-  },
-  {
-    "name": "Co-Investigator Name",
-    "role": "Co-Investigator",
-    "group": "Leadership",
-    "focus": "Circumstellar dust, infrared spectroscopy",
-    "photo": "assets/img/team/co-i-name.jpg",
-    "bio": "Placeholder. Anyone without a photo file shows a monogram tile instead, so entries work fine before portraits arrive.",
-    "links": {
-      "Email": "mailto:psi-group@uw.edu"
+      "Email": "mailto:jrad@uw.edu",
+      "Website": "https://jradavenport.github.io/",
+      "ADS": "https://ui.adsabs.harvard.edu/search/q=author%3A%22Davenport%2C%20James%20R.%20A.%22&sort=date%20desc"
     }
   },
   {
     "name": "Anastasios Tzanidakis",
-    "role": "DiRAC Postdoctoral Fellow",
+    "role": "DiRAC Postdoctoral Fellow (2026)",
     "group": "Postdoctoral Researchers",
     "focus": "Giant impacts, dipper stars, circumstellar dust",
     "photo": "assets/img/team/anastasios-tzanidakis.jpg",
-    "bio": "Works on time-domain signatures of colliding rocky bodies and occulting circumstellar dust, combining optical survey photometry with infrared and spectroscopic follow-up.",
+    "bio": "Studies rare stellar variability with observational and algorithmic methods — unusual dimming events around Sun-like stars, the dusty aftermath of giant impacts, and long-duration occultations by circumstellar material. Combines optical survey photometry (Gaia, ZTF, LSST) with infrared and spectroscopic follow-up. Founder of the PSI Group and former Director of the UW Planetarium.",
     "links": {
-      "Email": "mailto:psi-group@uw.edu",
-      "ADS": "https://ui.adsabs.harvard.edu/",
-      "GitHub": "https://github.com/"
+      "Email": "mailto:atzanida@uw.edu",
+      "Website": "https://andytza.github.io/",
+      "GitHub": "https://github.com/AndyTza",
+      "ADS": "https://ui.adsabs.harvard.edu/search/q=author%3A%22Tzanidakis%2C%20Anastasios%22&sort=date%20desc"
     }
   },
   {
-    "name": "Graduate Student Name",
-    "role": "PhD Student, Astronomy",
-    "group": "Graduate Students",
-    "focus": "Mid-infrared variability of young stars",
-    "photo": "assets/img/team/grad-one.jpg",
-    "bio": "Placeholder entry. Copy this block for each student and edit the fields.",
-    "links": { "Email": "mailto:psi-group@uw.edu" }
+    "name": "Nick Tusay",
+    "role": "DiRAC Postdoctoral Fellow (2025)",
+    "group": "Postdoctoral Researchers",
+    "focus": "Disintegrating exoplanets, transmission spectroscopy, technosignatures",
+    "photo": "assets/img/team/nick-tusay.jpg",
+    "bio": "Works on disintegrating rocky bodies around main-sequence stars, measuring the chemical makeup of their escaping material with ground-based optical observatories and JWST. Also runs and analyzes novel radio technosignature searches with the Green Bank Telescope and the Allen Telescope Array.",
+    "links": {
+      "Website": "https://tusay.github.io",
+      "GitHub": "https://github.com/Tusay",
+      "ADS": "https://ui.adsabs.harvard.edu/search/q=author%3A%22Tusay%2C%20N.%22&sort=date%20desc"
+    }
   },
   {
-    "name": "Graduate Student Name",
-    "role": "PhD Student, Astronomy",
-    "group": "Graduate Students",
-    "focus": "Survey selection for slow transients",
-    "photo": "",
-    "bio": "Placeholder entry with no photo, showing the monogram fallback.",
-    "links": {}
-  },
-  {
-    "name": "Undergraduate Name",
-    "role": "Undergraduate Researcher",
+    "name": "Katelyn",
+    "role": "Undergraduate Researcher · Senior",
     "group": "Undergraduate Researchers",
-    "focus": "Variability statistics for dipper candidates",
-    "photo": "",
-    "bio": "Placeholder entry.",
+    "focus": "Physics and Astronomy",
+    "photo": "assets/img/team/katelyn.jpg",
+    "bio": "Fourth-year undergraduate double majoring in Physics and Astronomy.",
     "links": {}
   },
   {
-    "name": "Alum Name",
-    "role": "Former Undergraduate Researcher · now at Institution",
-    "group": "Alumni",
-    "focus": "",
-    "photo": "",
-    "bio": "Placeholder entry. Alumni render last regardless of where they sit in the file.",
+    "name": "Shamik",
+    "role": "Undergraduate Researcher · Senior",
+    "group": "Undergraduate Researchers",
+    "focus": "Applied Physics and Astronomy",
+    "photo": "assets/img/team/shamik.jpg",
+    "bio": "Senior at UW majoring in Applied Physics and Astronomy.",
+    "links": {}
+  },
+  {
+    "name": "Marco",
+    "role": "Undergraduate Researcher · Junior",
+    "group": "Undergraduate Researchers",
+    "focus": "Astronomy and Physics, minor in Philosophy",
+    "photo": "assets/img/team/marco.jpg",
+    "bio": "Junior double majoring in Astronomy and Physics, with a minor in Philosophy.",
+    "links": {}
+  },
+  {
+    "name": "Armaan",
+    "role": "Undergraduate Researcher · Junior",
+    "group": "Undergraduate Researchers",
+    "focus": "Physics, Astronomy, and ACMS",
+    "photo": "assets/img/team/armaan.jpg",
+    "bio": "Junior studying Physics, Astronomy, and Applied & Computational Mathematical Sciences (ACMS).",
+    "links": {}
+  },
+  {
+    "name": "Jessica",
+    "role": "Undergraduate Researcher · Class of 2028",
+    "group": "Undergraduate Researchers",
+    "focus": "Physics and Astronomy, minor in Acting",
+    "photo": "assets/img/team/jessica.jpg",
+    "bio": "Class of 2028, majoring in Physics and Astronomy with a minor in Acting.",
     "links": {}
   }
 ]
