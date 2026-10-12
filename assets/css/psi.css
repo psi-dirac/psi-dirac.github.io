@@ -287,6 +287,10 @@ a.cell:hover { background: var(--ink-3); }
 }
 .log time { font-family: var(--f-mono); font-size: 12px; color: var(--ash); letter-spacing: .05em; padding-top: 3px; }
 .log p { margin: 0; color: #CFC6C3; }
+.log__post > div { display: grid; gap: 14px; }
+.log__figure { margin: 0; }
+.log__figure img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid var(--line); }
+.log__figure figcaption { font-family: var(--f-mono); font-size: 12px; color: var(--ash); letter-spacing: .05em; margin-top: 8px; }
 @media (max-width: 560px) { .log li { grid-template-columns: 1fr; gap: 6px; } }
 @media (max-width: 680px) { .shead { flex-direction: column; gap: 10px; align-items: flex-start; } }
 
