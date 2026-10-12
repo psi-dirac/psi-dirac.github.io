@@ -122,12 +122,8 @@
       h2.textContent = g;
       var rule = document.createElement('span');
       rule.className = 'team-group__rule';
-      var count = document.createElement('span');
-      count.className = 'team-group__count';
-      count.textContent = String(groups[g].length).padStart(2, '0');
       head.appendChild(h2);
       head.appendChild(rule);
-      head.appendChild(count);
 
       var list = document.createElement('div');
       list.className = 'people' + (g === 'Leadership' ? ' people--lead' : '');
