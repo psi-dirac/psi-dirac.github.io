@@ -67,12 +67,12 @@
     }
   },
   {
-    "name": "Katelyn Seratt",
-    "role": "Undergraduate Researcher · Senior",
+    "name": "Jessica Lemus",
+    "role": "Undergraduate Researcher · Class of 2028",
     "group": "Undergraduate Researchers",
-    "focus": "Physics and Astronomy",
-    "photo": "assets/img/team/katelyn.jpg",
-    "bio": "Fourth-year undergraduate double majoring in Physics and Astronomy.",
+    "focus": "Physics and Astronomy, minor in Acting",
+    "photo": "assets/img/team/jessica.jpg",
+    "bio": "Class of 2028, majoring in Physics and Astronomy with a minor in Acting.",
     "links": {}
   },
   {
@@ -94,21 +94,21 @@
     "links": {}
   },
   {
+    "name": "Katelyn Seratt",
+    "role": "Undergraduate Researcher · Senior",
+    "group": "Undergraduate Researchers",
+    "focus": "Physics and Astronomy",
+    "photo": "assets/img/team/katelyn.jpg",
+    "bio": "Fourth-year undergraduate double majoring in Physics and Astronomy.",
+    "links": {}
+  },
+  {
     "name": "Armaan Khanuja",
     "role": "Undergraduate Researcher · Junior",
     "group": "Undergraduate Researchers",
     "focus": "Physics, Astronomy, and ACMS",
     "photo": "assets/img/team/armaan.jpg",
     "bio": "Junior studying Physics, Astronomy, and Applied & Computational Mathematical Sciences (ACMS).",
-    "links": {}
-  },
-  {
-    "name": "Jessica Lemus",
-    "role": "Undergraduate Researcher · Class of 2028",
-    "group": "Undergraduate Researchers",
-    "focus": "Physics and Astronomy, minor in Acting",
-    "photo": "assets/img/team/jessica.jpg",
-    "bio": "Class of 2028, majoring in Physics and Astronomy with a minor in Acting.",
     "links": {}
   }
 ]
